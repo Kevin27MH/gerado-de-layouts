@@ -1,0 +1,41 @@
+.layout{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: blue;
+    width: 100vw;
+    height: 100vh;
+}
+
+.m1header{
+    background: rgb(255, 255, 0);
+    width: 100%;
+    height: 25%;
+}
+
+.m1main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: rgb(85, 255, 0);
+    width: 100%;
+    height: 100%;
+}
+
+.m1div1{
+    background: rgb(255, 255, 255);
+    width: 40%;
+    height: 100%;
+}
+
+.m1div2{
+    background: rgb(255, 136, 0);
+    width: 50%;
+    height: 100%;
+}
+
+.m1footer{
+    background: rgb(255, 0, 0);
+    width: 100%;
+    height: 10%;
+}
